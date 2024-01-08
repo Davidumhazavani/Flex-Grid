@@ -1,0 +1,77 @@
+body {
+    height: 600vh;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 100;
+    position: fixed;
+    width: 100%;
+    top: 10px;
+    z-index: 40;
+}
+
+#center{
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    padding: 0 50px;
+    border-radius: 30px;
+}
+
+#left{
+    display: flex;
+    background-color: green;
+    border-radius: 30px;
+    padding: 20px 50px;
+}
+
+
+
+#right{
+display: flex;
+padding: 20px 50px;
+border-radius: 30px;
+background-color: yellow;
+}
+
+body{
+    background-color: aqua;
+    font-family:'Plus Jakarta Sans', sans-serif;
+    font-weight: 200;
+    background-image: url("https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
+}
+
+#center2{
+    display: flexbox;
+    background-color: rgb(12, 145, 145);
+    padding: 10px 40px;
+    border-radius: 30px;
+    gap: 20px;
+}
+
+main {
+    margin-top: 20rem;
+    display: flex;
+}
+
+.first {
+    background-color: purple;
+    width: 20rem;
+    position: sticky;
+    bottom: 20px;
+    /*right: 40rem;*/
+    z-index: 1;
+}
+
+.second {
+    background-color: green;
+    width: 20rem;
+    position: fixed;
+    z-index: 2;
+}
